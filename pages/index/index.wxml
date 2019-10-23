@@ -1,0 +1,6 @@
+<view>
+  <myTest mySrc="{{mySrc}}" bind:tap="myTap">
+  
+    这是一个旋转的图片组件
+  </myTest>
+</view>

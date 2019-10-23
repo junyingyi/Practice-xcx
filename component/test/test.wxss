@@ -1,0 +1,16 @@
+/* component/test.wxss */
+
+@keyframes animas {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.imgs {
+    width: 300rpx;
+    height: 300rpx;
+    animation: animas 2s infinite linear;
+}

@@ -1,0 +1,12 @@
+
+
+
+<view >
+     <view>
+         <image class="imgs" src="{{mySrc}}">
+             
+         </image>
+     </view>
+      <!-- 插槽 -->
+     <slot></slot>
+</view>
